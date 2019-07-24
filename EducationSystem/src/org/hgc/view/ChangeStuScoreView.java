@@ -174,7 +174,7 @@ public class ChangeStuScoreView extends JFrame {
 			}
 			if (hasChoosen == true) {
 				int x = Integer.parseInt(txtGrade.getText());
-				if (x >= 0 && x < 100) {
+				if (x >= 0 && x <= 100) {
 					// 范围正确
 				} else {
 					throw new Exception("成绩不在规定范围之内");
