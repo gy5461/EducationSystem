@@ -169,7 +169,9 @@ public class LoginView extends JFrame {
 							labelWrong2.setText("");
 						}
 					} else {
-
+						labelWrong1.setText("用户身份选择错误，");
+						labelWrong2.setText("请重新选择");
+						exist = true;
 					}
 				}
 			}
